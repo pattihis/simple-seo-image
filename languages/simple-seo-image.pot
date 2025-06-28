@@ -1,0 +1,287 @@
+# Copyright (C) 2025 George Pattichis
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple SEO Image 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/simple-seo-image\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-06-28T19:21:48+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: simple-seo-image\n"
+
+#. Plugin Name of the plugin
+#: simple-seo-image.php
+msgid "Simple SEO Image"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: simple-seo-image.php
+msgid "https://wordpress.org/plugins/simple-seo-image/"
+msgstr ""
+
+#. Description of the plugin
+#: simple-seo-image.php
+msgid "Optimize image SEO automatically. Add alt text, titles, captions and descriptions from filenames. Bulk update existing images."
+msgstr ""
+
+#. Author of the plugin
+#: simple-seo-image.php
+msgid "George Pattichis"
+msgstr ""
+
+#. Author URI of the plugin
+#: simple-seo-image.php
+msgid "https://profiles.wordpress.org/pattihis/"
+msgstr ""
+
+#: admin/admin-setup.php:45
+msgid "Basic Settings"
+msgstr ""
+
+#: admin/admin-setup.php:52
+msgid "General Settings<p class=\"ssim-description\">Select image attributes that should be automatically generated when you upload a new image.</p>"
+msgstr ""
+
+#: admin/admin-setup.php:60
+msgid "Filter Settings<p class=\"ssim-description\">Selected characters will be removed from filename text before using them as image attributes.</p>"
+msgstr ""
+
+#: admin/admin-setup.php:68
+msgid "Basic SEO Settings"
+msgstr ""
+
+#: admin/admin-setup.php:186
+msgid "Image filename"
+msgstr ""
+
+#: admin/admin-setup.php:187
+msgid "Title of the post, page or product where the image is used"
+msgstr ""
+
+#: admin/admin-setup.php:188
+msgid "Site Title defined in WordPress General Settings"
+msgstr ""
+
+#: admin/admin-setup.php:189
+msgid "Post or product Category"
+msgstr ""
+
+#: admin/admin-setup.php:190
+msgid "Post or product Tag"
+msgstr ""
+
+#: admin/admin-setup.php:191
+msgid "Excerpt or product short description"
+msgstr ""
+
+#: admin/admin-setup.php:192
+msgid "Copy attribute from Media Library"
+msgstr ""
+
+#: admin/admin-setup.php:193
+msgid "Image Title"
+msgstr ""
+
+#: admin/admin-setup.php:194
+msgid "Image Alt Text"
+msgstr ""
+
+#: admin/admin-setup.php:195
+msgid "Image Caption"
+msgstr ""
+
+#: admin/admin-setup.php:196
+msgid "Image Description"
+msgstr ""
+
+#: admin/admin-ui-render.php:26
+msgid "Set Image Title for new uploads"
+msgstr ""
+
+#: admin/admin-ui-render.php:32
+msgid "Set Image Alt Text for new uploads"
+msgstr ""
+
+#: admin/admin-ui-render.php:38
+msgid "Set Image Caption for new uploads"
+msgstr ""
+
+#: admin/admin-ui-render.php:44
+msgid "Set Image Description for new uploads"
+msgstr ""
+
+#: admin/admin-ui-render.php:64
+msgid "Remove hyphens ( - ) from filename"
+msgstr ""
+
+#: admin/admin-ui-render.php:70
+msgid "Remove underscores ( _ ) from filename"
+msgstr ""
+
+#: admin/admin-ui-render.php:76
+msgid "Remove full stops ( . ) from filename"
+msgstr ""
+
+#: admin/admin-ui-render.php:82
+msgid "Remove commas ( , ) from filename"
+msgstr ""
+
+#: admin/admin-ui-render.php:88
+msgid "Remove all numbers ( 0-9 ) from filename"
+msgstr ""
+
+#: admin/admin-ui-render.php:108
+msgid "Insert Image Title into post HTML. This will add <code>title=\"Image Title\"</code> in the <code>&lt;img&gt;</code> tag."
+msgstr ""
+
+#: admin/admin-ui-render.php:150
+#: admin/basic-setup.php:43
+msgid "Settings"
+msgstr ""
+
+#: admin/admin-ui-render.php:151
+#: admin/admin-ui-render.php:172
+msgid "Bulk Updater"
+msgstr ""
+
+#: admin/admin-ui-render.php:161
+msgid "Upload Options"
+msgstr ""
+
+#: admin/admin-ui-render.php:162
+msgid "Automatically add image attributes such as Image Title, Alt Text, Caption and Description from image filename for new uploads."
+msgstr ""
+
+#: admin/admin-ui-render.php:164
+msgid "Save Settings"
+msgstr ""
+
+#: admin/admin-ui-render.php:174
+msgid "Run this bulk updater to update Image Title, Caption, Description and Alt Text for all images."
+msgstr ""
+
+#: admin/admin-ui-render.php:177
+msgid "It seems that JavaScript is disabled in your browser. Please enable JavasScript or use a different browser to use the bulk updater."
+msgstr ""
+
+#: admin/admin-ui-render.php:179
+msgid "IMPORTANT: Please backup your database before running the bulk updater."
+msgstr ""
+
+#: admin/admin-ui-render.php:181
+msgid "Use <code>Test Bulk Updater</code> button to update one image at a time and verify the results."
+msgstr ""
+
+#: admin/admin-ui-render.php:187
+#: admin/admin-ui-render.php:231
+msgid "Run Bulk Updater"
+msgstr ""
+
+#: admin/admin-ui-render.php:189
+#: admin/admin-ui-render.php:236
+msgid "Test Bulk Updater"
+msgstr ""
+
+#: admin/admin-ui-render.php:191
+msgid "Stop Bulk Updater"
+msgstr ""
+
+#: admin/admin-ui-render.php:194
+msgid "Tools"
+msgstr ""
+
+#: admin/admin-ui-render.php:196
+msgid "To restart processing images from the beginning (the oldest upload first), reset the counter."
+msgstr ""
+
+#: admin/admin-ui-render.php:199
+msgid "If Bulk Updater is stuck, refresh the page, skip current image and try running the bulk updater again."
+msgstr ""
+
+#: admin/admin-ui-render.php:203
+#: admin/admin-ui-render.php:241
+msgid "Reset Counter"
+msgstr ""
+
+#: admin/admin-ui-render.php:206
+msgid "Skip Image"
+msgstr ""
+
+#: admin/admin-ui-render.php:213
+msgid "Event Log"
+msgstr ""
+
+#: admin/admin-ui-render.php:219
+msgid "Number of Images Remaining: "
+msgstr ""
+
+#: admin/admin-ui-render.php:221
+msgid "Number of Images Updated: "
+msgstr ""
+
+#: admin/admin-ui-render.php:232
+msgid "You are about to run the bulk updater. This will update all images and cannot be undone. Please make a database backup before you proceed. Press OK to confirm."
+msgstr ""
+
+#: admin/admin-ui-render.php:237
+msgid "The bulk updater will do a test run by updating one image. Note that this is a live test and actual values will be updated in the database. Please make a database backup before you proceed. Press Ok to confirm."
+msgstr ""
+
+#: admin/admin-ui-render.php:242
+msgid "You are about to reset the bulk updater counter. The bulk updater will start from scratch in the next run. Press Ok to confirm."
+msgstr ""
+
+#: admin/basic-setup.php:59
+msgid "Support"
+msgstr ""
+
+#. translators: %s is the URL to the settings page
+#: admin/basic-setup.php:79
+msgid "Thank you for installing <strong>Simple SEO Image</strong>! <a href=\"%s\">Change settings &rarr;</a>"
+msgstr ""
+
+#: admin/basic-setup.php:91
+msgid "<strong>Simple SEO Image</strong> successfully updated."
+msgstr ""
+
+#. translators: %1$s is the URL to rate the plugin, %2$s is the URL to review the plugin
+#: admin/basic-setup.php:117
+msgid "If you like this free plugin, please leave a <a href=\"%1$s\" target=\"_blank\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating or <a href=\"%2$s\" target=\"_blank\">review</a> to support continued development. Thanks!"
+msgstr ""
+
+#: admin/columns-media-library.php:25
+msgid "Title"
+msgstr ""
+
+#: admin/columns-media-library.php:26
+msgid "Alternative Text"
+msgstr ""
+
+#: admin/columns-media-library.php:27
+msgid "Caption"
+msgstr ""
+
+#: admin/columns-media-library.php:28
+msgid "Description"
+msgstr ""
+
+#: admin/do.php:80
+msgid "Image attributes updated for: "
+msgstr ""
+
+#: admin/do.php:165
+msgid "Counter reset. The bulk updater will start from scratch in the next run."
+msgstr ""
+
+#: admin/do.php:235
+msgid "No more images to skip."
+msgstr ""
+
+#: admin/do.php:247
+msgid "Image skipped: "
+msgstr ""
